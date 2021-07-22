@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.card {
+    min-height: 100px;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid silver;
+    margin-top: 50px;
+    position: relative;
+}
+
+.picture img {
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.card-header {
+    background-color: lightskyblue;
+    height: 50px;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card-body img {
+    height: 15px;
+}
